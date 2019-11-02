@@ -956,5 +956,86 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT recognize that negative power values should not be supplied when the mode is RUN_TO_POSITION"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-727303495",
+  "source": {
+   "name": "Waiting for the Motor (Run To Position)",
+   "showName": true,
+   "instructions": "The following LinearOpMode definition intends to run a motor named `motor` to a position of $4450$ ticks, stopping when the motor reaches this target position. However, it does not work as intended. What is the problem? How would you fix it?\n\n```java\n@Autonomous(name = \"Run it there\", group = \"Experimental\")\npublic class RunItThere extends LinearOpMode {\n  @Override\n  public void runOpMode() {\n    DcMotor motor = hardwareMap.dcMotor.get(\"motor\");\n\n    waitForStart();\n\n    motor.setTargetPosition(4450);\n    motor.setMode(RunMode.RUN_TO_POSITION);\n    motor.setPower(1);\n  }\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "09c9bfcf-ba1b-b936-9bac-f694870b9fab",
+     "correct": false,
+     "answer": "This OpMode definition does not wait for the motor to reach the target position; to fix this, add `while (motor.isBusy()) {}` before the end of `runOpMode`."
+    },
+    {
+     "_id": "d28b20a0-afaa-9807-90eb-522cb3714dce",
+     "correct": false,
+     "answer": "This OpMode definition does not wait for the motor to reach the target position; to fix this, add `while (motor.getCurrentPosition() != motor.getTargetPosition()) {}` before the end of `runOpMode`."
+    },
+    {
+     "_id": "18cc691e-4a9a-04a4-d27b-2f856300f31d",
+     "correct": true,
+     "answer": "This OpMode definition does not wait for the motor to reach the target position; to fix this, add `while (motor.isBusy() && !isStopRequested()) {}` before the end of `runOpMode`."
+    },
+    {
+     "_id": "331f56a0-b8a5-31b3-74c8-d5a80211ba73",
+     "correct": false,
+     "answer": "This OpMode definition does not correctly set the motor in motion; to fix this, change the order of the calls to the methods of `motor`."
+    },
+    {
+     "_id": "b69fc781-e3a3-bf54-883c-8fc5e2eee2d5",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "The given OpMode definition only sets the motor in motion; it does not wait for the motor to reach its target position. Since the `isBusy` method of `DcMotor` returns true whenever the motor is \"advancing or retreating to a target position\" (JavaDocs), we can use it as a predicate in a `while` loop to wait for it to return false.\n\nHowever, we also need to consider whether this linear OpMode can be stopped instantly. If `isBusy` were the only predicate in the `while` loop, then the OpMode would not respond to the Stop button being pressed on the Driver Station. To resolve this, add a check for `isStopRequested()` per the following:\n```java\nwhile (motor.isBusy() && !isStopRequested())\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand how to use `isBusy` to wait for a motor to reach a target position"
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1509680625",
+  "source": {
+   "name": "Fixing ARC-Core - Motor Position Control",
+   "showName": true,
+   "instructions": "Briefly read the contents of this commit to ARC-Core:\n\nhttps://github.com/Andover-Robotics/ARC-Core/commit/d5f3c89509275ceec941ec50faa613ea9f0d8bb2\n\nThis commit was intended to respond to a particular misunderstanding of how we are supposed to interact with motors in the FTC SDK. What was this misunderstanding? Why was it problematic?",
+   "guidance": "Recall that _ARC Software_ states:\n> The FTC SDK requires you to set a motor's target position to a certain value before setting its RunMode to `RUN_TO_POSITION` for the first time.\n\nPreviously, the procedures of ARC-Core did not abide by this principle. It called `setMode` before `setTargetPosition` whenever it attempted to run a motor to a specific position. Earlier in the 2019-2020 season, we noticed that this produced errors pertaining to the absence of a target position, so we tinkered with the `RUN_TO_POSITION` technique to fix the problem and discover this principle.",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 4,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT analyze existing commits in ARC Core and connect them to software rules"
+  }
  }
 ]

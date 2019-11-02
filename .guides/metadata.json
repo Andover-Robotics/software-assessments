@@ -275,6 +275,30 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "d509a6c9-3394-7ddc-63c1-96438aa18ccd",
+   "title": "Waiting for the Motor",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Waiting-for-the-Motor-d509.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "145f50a6-944e-6e99-d769-4263f19e9475",
+   "title": "Fixing ARC-Core",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Fixing-ARC-Core-145f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",
