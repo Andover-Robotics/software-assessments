@@ -1,0 +1,960 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-940263552",
+  "source": {
+   "name": "Defining the OpMode",
+   "showName": true,
+   "instructions": "Which of the following options is the best definition of an OpMode?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "e9b1b7be-5f52-14c3-738d-52909da80bc8",
+     "correct": false,
+     "answer": "One of the robot's several modes of operation, such as \"TeleOp\", \"Autonomous\", and \"Endgame\""
+    },
+    {
+     "_id": "dffd89fd-009a-c596-1009-76abba577175",
+     "correct": true,
+     "answer": "A procedure that a robot executes"
+    },
+    {
+     "_id": "0a128f30-e6ba-dd91-2648-37c12ea93130",
+     "correct": false,
+     "answer": "A particular way to operate the robot"
+    },
+    {
+     "_id": "2c061f4d-f267-567d-a63b-32fd4549c2e4",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "The _ARC Software_ GitBook states:\n> An OpMode is a particular procedure that is executed by a FTC Robot Controller phone. You might create OpModes to test electronics, run autonomously for the Autonomous Period, run using remote control for the TeleOp Period, or to experiment with unfamiliar software.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define an OpMode"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3207774065",
+  "source": {
+   "name": "Sources of OpMode Examples",
+   "showName": true,
+   "instructions": "Which of the following options are valid and up-to-date sources of OpMode examples?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "2ef1a1ba-70a0-a83e-2d5d-e9eb28aa8d7b",
+     "correct": false,
+     "answer": "`github.com/ftctechnh/ftc_app`"
+    },
+    {
+     "_id": "cef82fe4-5e9b-d463-936a-aec11623c901",
+     "correct": true,
+     "answer": "`github.com/FIRST-Tech-Challenge/SkyStone`"
+    },
+    {
+     "_id": "2cda8687-9464-b1c7-7c60-ddd57bb7bc9f",
+     "correct": false,
+     "answer": "`github.com/Andover-Robotics/robodocs`"
+    }
+   ],
+   "guidance": "For this year, FIRST will host their most up-to-date code at the GitHub repository under `FIRST-Tech-Challenge/SkyStone`. They have explicitly stated that `ftctechnh/ftc_app` is deprecated and will not receive more updates. For more comprehensive third-party guides, you can refer to Portland State University's [STEMRobotics website](https://stemrobotics.cs.pdx.edu/node/4577), but they might not be up-to-date.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT remember where to find OpMode examples"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-233303784",
+  "source": {
+   "name": "The OpMode's beginning of execution",
+   "showName": true,
+   "instructions": "Which of the following options best describes the code segment that is executed **once** immediately after someone presses _INIT_ with a non-linear OpMode selected?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "fefc090d-6b46-fbd9-93a0-c81518d7c302",
+     "correct": false,
+     "answer": "The method `runOpMode()`"
+    },
+    {
+     "_id": "d391af94-7cbf-21e0-837a-778671ed79a8",
+     "correct": false,
+     "answer": "The method `init_loop()`"
+    },
+    {
+     "_id": "428ee2d1-42cc-4d19-1a3a-eb4959e22cfc",
+     "correct": false,
+     "answer": "The method `start()`"
+    },
+    {
+     "_id": "3918a5da-e79b-1157-c525-1aa6913b8ffa",
+     "correct": true,
+     "answer": "The method `init()`"
+    },
+    {
+     "_id": "86f9e384-ba10-2cf4-f6a0-36faa5ec61c5",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "According to the _ARC Software_ GitBook, `public abstract void init()` is executed once immediately after a user presses INIT with a nonlinear OpMode selected.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT remember which method is executed once immediately after a user presses INIT with a nonlinear OpMode selected"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2240292056",
+  "source": {
+   "name": "The LinearOpMode's beginning of execution",
+   "showName": true,
+   "instructions": "Which of the following options best describes the code segment that is executed **once** immediately after someone presses _INIT_ with a linear OpMode selected?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "817eb407-cf9b-47c5-349f-2343c4c0f5d1",
+     "correct": true,
+     "answer": "The method `runOpMode()`"
+    },
+    {
+     "_id": "e5b2e982-283e-0d36-f145-1e688860459b",
+     "correct": false,
+     "answer": "The method `init()`"
+    },
+    {
+     "_id": "7a028ac9-d9ae-f2a0-68fe-8ee78ed3c17c",
+     "correct": false,
+     "answer": "The method `start()`"
+    },
+    {
+     "_id": "b6705b6d-d12d-a3a4-389b-2d22fbdd440f",
+     "correct": false,
+     "answer": "The method `loop()`"
+    },
+    {
+     "_id": "7279254c-ae53-407c-8308-019b87fc88d3",
+     "correct": false,
+     "answer": "`public static void main(...)`"
+    },
+    {
+     "_id": "f7e63bf5-f137-064d-e823-af6ea57fd720",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "The _ARC Software_ GitBook states:\n> The `runOpMode` method is called whenever the current OpMode is initialized from the Driver Station by pressing the _INIT_ button\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT remember that runOpMode is executed after the user presses INIT with a linear OpMode selected"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-715757058",
+  "source": {
+   "name": "Fix this OpMode 1",
+   "showName": true,
+   "instructions": "The following OpMode for the Autonomous period does not follow its conventions and would probably be considered illegal if executed during competition. Which of the following options best describes and fixes the problem?\n\n_**⚠ Assume that all calls to the `Robot` instance are valid and that all necessary import statements are present.**_\n\n```java\n@Autonomous(name = \"Diagnostic Auto\", group = \"Experimental\")\npublic class DiagnosticAuto extends LinearOpMode {\n  private Robot robot;\n\n  @Override\n  public void runOpMode() {\n    robot = new Robot(this);\n\n    // move in a square pattern\n    robot.drive.forward(10);\n    robot.drive.right(10);\n    robot.drive.backward(10);\n    robot.drive.left(10);\n  }\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "e41385d4-bcf8-5b4d-e130-95ea0c5f4e69",
+     "correct": true,
+     "answer": "The robot starts moving when the user hits INIT. To fix this, add `waitForStart()` before the four movement method calls."
+    },
+    {
+     "_id": "c9373e8d-fbb7-dc0b-cd94-69484f5f06ec",
+     "correct": false,
+     "answer": "The robot starts moving when the user hits INIT. To fix this, move the contents of `runOpMode` to a different method."
+    },
+    {
+     "_id": "6945c438-497d-5d84-7e42-2865e387c709",
+     "correct": false,
+     "answer": "Executing this OpMode produces a runtime exception and a consequent EMERGENCY STOP. To fix this, add `waitForStart()` before the four movement method calls."
+    },
+    {
+     "_id": "290f039f-8bc2-46c3-6133-285fe1a6dbd9",
+     "correct": false,
+     "answer": "Executing this OpMode produces a runtime exception and a consequent EMERGENCY STOP. To fix this, move the contents of `runOpMode` to a different method."
+    },
+    {
+     "_id": "3aea18dc-ab07-970d-4cf3-6297a7bfcb5b",
+     "correct": false,
+     "answer": "Nothing happens when this OpMode is executed. To fix this, rename `runOpMode` to `start`."
+    },
+    {
+     "_id": "e2216114-f1fe-d991-4d2e-28ecf8d336d0",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "Recall that for linear OpModes, `runOpMode` is executed immediately after the user presses _INIT_. Conventionally, we press _INIT_ when preparing the robot for a match, and we press Play (▶) when we want the robot to start moving. In this OpMode definition, the robot will start moving when _INIT_ is pressed. To fix this, we need to add `waitForStart()` before the movement statements.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand that waitForStart is needed in a legal autonomous LinearOpMode"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3242562926",
+  "source": {
+   "name": "OpMode Order of Execution",
+   "showName": true,
+   "instructions": "In the following OpMode definition, what will be the contents of `sequence` after the OpMode finishes executing for the first time?\n\n```java\n@TeleOp(name = \"Order of Execution\", group = \"Experimental\")\npublic class OrderTeleOp extends OpMode {\n  private String sequence = \"\";\n\n  @Override\n  public void loop() {\n    if (!sequence.endsWith(\"L\")) {\n      sequence += \"L\";\n    }\n  }\n\n  @Override\n  public void init_loop() {\n    if (!sequence.endsWith(\"Q\")) {\n      sequence += \"Q\";\n    }\n  }\n\n  @Override\n  public void start() {\n    sequence += \"S\";\n  }\n\n  @Override\n  public void init() {\n    sequence += \"I\";\n  }\n\n  @Override\n  public void stop() {\n    sequence += \"T\";\n  }\n}\n```",
+   "text": "`\"<<<IQSLT>>>\"`",
+   "guidance": "Check [OpMode vs LinearOpMode](https://andover-robotics.gitbook.io/arc-software/the-opmode-1/opmode-vs-linearopmode) for the details of each method in a nonlinear OpMode definition.\n\nNote that the order in which you define these methods in a real OpMode should reflect the order in which they are executed, i.e. `init()` first, `init_loop()` second (if applicable), etc.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT apply their knowledge of the nonlinear OpMode methods",
+   "tokens": {
+    "blank": [
+     "IQSLT"
+    ],
+    "text": [
+     "`\"",
+     0,
+     "\"`"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3520738434",
+  "source": {
+   "name": "Producing Textual Output from an OpMode",
+   "showName": true,
+   "instructions": "In the `loop()` method of a nonlinear OpMode, executing which of the following causes text to show up on the Driver Station?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "c8c12dac-264a-182a-aef7-0f2cf27754d5",
+     "correct": false,
+     "answer": "`System.out.println(\"Hello World\");`"
+    },
+    {
+     "_id": "6faa0ba3-5546-b49f-28e9-626bef9e19d1",
+     "correct": false,
+     "answer": "`Log.i(\"Hello World\");`"
+    },
+    {
+     "_id": "8cc33a37-5c46-2855-587a-e9fd6e5b478c",
+     "correct": false,
+     "answer": "`telemetry.addData(\"Hello World\");`"
+    },
+    {
+     "_id": "5d8e656e-1a94-9961-68c2-5fb399df0034",
+     "correct": true,
+     "answer": "`telemetry.addLine(\"Hello World\");`"
+    },
+    {
+     "_id": "06e61594-013d-585c-8d89-74c933119802",
+     "correct": true,
+     "answer": "`telemetry.addData(\"Hello\", \"World\");`"
+    }
+   ],
+   "guidance": "Check the [Telemetry page](https://andover-robotics.gitbook.io/arc-software/the-opmode-1/telemetry-and-debugging) of the _ARC Software_ GitBook for more information.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Application.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT remember how to make text show up on the Driver Station in a nonlinear OpMode"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2725860421",
+  "source": {
+   "name": "Sending Telemetry in a LinearOpMode",
+   "showName": true,
+   "instructions": "The following linear OpMode implementation is intended to show the elapsed time in real time on the Driver Station. Does it work as intended? If not, what is the problem?\n\n```java\n@Autonomous(name = \"ElapsedTime Telemetry\", group = \"Experimental\")\npublic class ElapsedTimeAuto extends LinearOpMode {\n  @Override\n  public void runOpMode() {\n    waitForStart();\n\n    while (!isStopRequested()) {\n      telemetry.addData(\"elapsed time\", \"%.4f\", time);\n    }\n  }\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a149a2b6-5a80-6594-bd60-9ecd106f3a2d",
+     "correct": false,
+     "answer": "This OpMode definition works as intended"
+    },
+    {
+     "_id": "255addda-4149-18a4-917f-97eee223dee7",
+     "correct": false,
+     "answer": "This OpMode definition does not work as intended. The call to `telemetry.addData` is invalid."
+    },
+    {
+     "_id": "a36bea72-8e41-e578-4835-4d9f2e560b0b",
+     "correct": false,
+     "answer": "This OpMode definition does not work as intended. It does not stop when Stop (⏹) is pressed on the Driver Station."
+    },
+    {
+     "_id": "e772a1b4-e1dd-115a-6002-29ed85c3c635",
+     "correct": true,
+     "answer": "This OpMode definition does not work as intended. It does not send the added telemetry data to the Driver Station."
+    },
+    {
+     "_id": "a4b22f73-8809-ec3f-c1a2-3dc94715506d",
+     "correct": false,
+     "answer": "This OpMode definition does not work as intended. The field `time` does not exist."
+    },
+    {
+     "_id": "5e0f260b-78e1-8687-3350-3f3af1447b5b",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "In a linear OpMode, we have to call `telemetry.update()` manually in order to send the added lines and data to the Driver Station so that they can be shown. Read [Telemetry and Debugging](https://andover-robotics.gitbook.io/arc-software/the-opmode-1/telemetry-and-debugging) on _ARC Software_ for more information.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "Application.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the lack of telemetry.update() in a LinearOpMode definition"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4222651323",
+  "source": {
+   "name": "Calling telemetry.update() twice in a row",
+   "showName": true,
+   "instructions": "The following linear OpMode is intended to send the current elapsed time and a random floating point number from 0 to 1 to the Driver Station's telemetry screen. Does it work as intended? If not, what is the problem?\n\n```java\n@Autonomous(name = \"Double Telemetry\", group = \"Experimental\")\npublic class DoubleTelemetry extends LinearOpMode {\n  @Override\n  public void runOpMode() {\n    waitForStart();\n\n    while (!isStopRequested()) {\n      \n      // ... code taking more than 0.25s that doesn't access telemetry\n\n      telemetry.addData(\"RandoNum\", Math.random());\n      telemetry.addData(\"elapsed time\", \"%.4f\", time);\n      telemetry.update();\n\n      // ... code taking about 0.01s that doesn't access telemetry      \n\n      telemetry.update();\n    }\n  }\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "2dc937e3-696f-40e6-dfcc-fca407c72c13",
+     "correct": true,
+     "answer": "It does not work as intended; nothing is shown on the Driver Station screen."
+    },
+    {
+     "_id": "79e34b61-32ed-0721-1c5e-0d86507b2e5e",
+     "correct": false,
+     "answer": "It does not work as intended; only the random number is shown on the Driver Station screen."
+    },
+    {
+     "_id": "bfd8a7c5-6b5e-c7c1-6a33-ecc96417e682",
+     "correct": false,
+     "answer": "It does not work as intended; only the elapsed time is shown on the Driver Station screen."
+    },
+    {
+     "_id": "27d5ad71-271e-605d-1c29-53b41771a6be",
+     "correct": false,
+     "answer": "It works as intended"
+    }
+   ],
+   "guidance": "This OpMode definition calls `telemetry.update()` twice. The first call queues the delivery of both the random number and the elapsed time to the Driver Station, and it **also clears all telemetry data in the queue**, so in the second call to `telemetry.update()`, the Driver Station telemetry screen is effectively cleared. The process is repeated after more than 0.25 seconds, which is the default interval for the transmission of telemetry data, so the second `telemetry.update()` call overrides the first every time. As a result, nothing is shown on the Driver Station screen.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand why calling telemetry.update() twice in the main loop can clear the Driver Station screen"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2337092342",
+  "source": {
+   "name": "A LinearOpMode to Move a Motor",
+   "showName": true,
+   "instructions": "The following LinearOpMode definition is intended to run a motor named `lift` to a specified target position. (You will learn about how to control motors later. For now, assume that the motor is controlled correctly here.) Does it work as intended? If not, what is the problem?\n\n```java\n@Autonomous(name = \"Interrupts\", group = \"Experimental\")\npublic class Interrupts extends LinearOpMode {\n  @Override\n  public void runOpMode() {\n    DcMotor motor = hardwareMap.dcMotor.get(\"lift\");\n    waitForStart();\n\n    motor.setTargetPosition(2880);\n    motor.setMode(RunMode.RUN_TO_POSITION);\n    motor.setPower(0.2);\n\n    while (motor.isBusy()) {\n      telemetry.addData(\"motor pos\", motor.getCurrentPosition());\n      telemetry.update();\n    }\n  }\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "54d381a9-5e2c-e354-e226-1a6210682641",
+     "correct": false,
+     "answer": "It works as intended and is perfectly valid."
+    },
+    {
+     "_id": "689ce955-001d-4e72-b7e0-281fdb748c0b",
+     "correct": false,
+     "answer": "It does not work as intended; a runtime exception will occur."
+    },
+    {
+     "_id": "b83400a3-4a05-5275-fc57-b7fbde28485a",
+     "correct": false,
+     "answer": "It does not work as intended; the OpMode will never finish."
+    },
+    {
+     "_id": "6957728b-c9ab-8e4a-01cf-35f4f7b87391",
+     "correct": true,
+     "answer": "It works as intended, but its execution cannot be gracefully aborted."
+    }
+   ],
+   "guidance": "Review [Stopping LinearOpModes](https://andover-robotics.gitbook.io/arc-software/the-opmode-1/stopping-linearopmodes) on _ARC Software_ for more details. In this definition, the execution waits for the lift motor to reach its target position but does not check whether the OpMode is manually stopped. As a result, if we press Stop (⏹) when the motor is running, the OpMode will not stop, and an EMERGENCY STOP will be issued.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify LinearOpMode implementations that cannot be gracefully aborted"
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1508465208",
+  "source": {
+   "name": "Missing Hardware Device",
+   "showName": true,
+   "instructions": "When running a new addition to your team's code, you see the following text shown next to \"EMERGENCY STOP\" on the Driver Station:\n\n    User code threw an uncaught exception: IllegalArgumentException - Unable to find a hardware device with the name 'leftLift'\n\nIn steps, describe how you would approach this problem.",
+   "guidance": "This error indicates that a hardware device by the name of `leftLift` is referenced in code but is not found in the currently active hardware configuration. Here is what we could do:\n\n1. Check if the currently selected configuration is the correct one\n2. If it is correct, check the corresponding port of `leftLift` to see if it was correctly mapped\n3. If it is not correct, select the correct configuration",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 4,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT diagnose a \"hardware device not found\" error"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2605179440",
+  "source": {
+   "name": "From Code to Hardware",
+   "showName": true,
+   "instructions": "Which of the following options best describes how your code controls specific electronic devices on the robot?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "232fa713-bf5f-bdaf-e976-1684b507934e",
+     "correct": false,
+     "answer": "You specify the hub and the port of each hardware device in your OpMode initialization code. When you try to read or write values to a device, the FTC SDK relays the intent to the specified port and hub."
+    },
+    {
+     "_id": "cd713e00-322e-a4da-d76f-914c9c8e8132",
+     "correct": true,
+     "answer": "You specify the hub and the port of each hardware device in hardware configuration schemes. You also give each device a unique name with which you can refer to the device in your OpMode initialization code."
+    },
+    {
+     "_id": "67df88ef-8480-b3fb-4a12-2ba313849e08",
+     "correct": false,
+     "answer": "You declare each hardware device as a field in your OpMode with a specific annotation that identifies the hub and port of each device. When the OpMode is instantiated, the FTC SDK automatically populates the fields with objects representing their respective devices."
+    },
+    {
+     "_id": "7f126a97-fff6-b345-7465-4380e42be15b",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "Check [Hardware Configuration](https://andover-robotics.gitbook.io/arc-software/hardware-interaction/configuration) in _ARC Software_ for more information. We give a unique name to each hardware device using configuration schemes. We then refer to each hardware device using its name in code.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand how one references specific hardware devices from code"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1953864357",
+  "source": {
+   "name": "Motor Direction and Power",
+   "showName": true,
+   "instructions": "Fill in the following blanks with integers that make the following statements true.",
+   "text": "The power $p$ should always satisfy the inequality _<<<-1>>> ≤ p ≤ <<<1>>>_.\n\nSetting a motor's power to $1$ and its direction to _REVERSE_ is equivalent to setting its power to <<<-1>>> and its direction to _FORWARD_.",
+   "guidance": "Check [DcMotor](https://andover-robotics.gitbook.io/arc-software/hardware-interaction/dcmotor) in _ARC Software_ for more details.\n\nThe power of a motor should always be between $-1$ and $1$, inclusive. Setting the direction to _REVERSE_ effectively negates any power you send to the motor, so a power of $1$ in reverse is equivalent to a power of $-1$ in forward.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT remember the valid range for motor power and how direction influences its effect",
+   "tokens": {
+    "blank": [
+     "-1",
+     "1",
+     "-1"
+    ],
+    "text": [
+     "The power $p$ should always satisfy the inequality _",
+     0,
+     " ≤ p ≤ ",
+     0,
+     "_.\n\nSetting a motor's power to $1$ and its direction to _REVERSE_ is equivalent to setting its power to ",
+     0,
+     " and its direction to _FORWARD_."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1970614596",
+  "source": {
+   "name": "Motors for Tank Drive TeleOp",
+   "showName": true,
+   "instructions": "The following nonlinear OpMode definition is intended to codify the rules of tank drive controls: the left joystick $y$ axis controls the left motor, and the right joystick $y$ axis controls the right motor. Given that the two motors face opposite directions, How does the robot move when both input $y$ values are $1$? If the behavior is problematic, how would you fix it?\n\n```java\n@TeleOp(name = \"TankDrive\", group = \"Experimental\")\npublic class TankDriveTeleOp extends OpMode {\n  private DcMotor left, right;\n  private Controller controller = Controller.getInstance();\n  // Assume that `controller` is non-null and that...\n  // leftY and rightY are valid public non-static method names of the Controller class that...\n  // return a value in the range [-1, 1]\n\n  @Override\n  public void init() {\n    left = hardwareMap.dcMotor.get(\"left\");\n    right = hardwareMap.dcMotor.get(\"right\");\n  }\n\n  @Override\n  public void loop() {\n    left.setPower(controller.leftY());\n    right.setPower(controller.rightY());\n  }\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "76b26e64-dba2-8b35-806a-3cddf09982c9",
+     "correct": false,
+     "answer": "The robot moves forward as intended."
+    },
+    {
+     "_id": "547161dd-9f15-9580-d903-aeac021180d6",
+     "correct": false,
+     "answer": "The robot stays at rest; to fix this, change the `loop` method's contents."
+    },
+    {
+     "_id": "bfd265e8-3e13-6e02-82cd-409711701b2a",
+     "correct": true,
+     "answer": "The robot turns in place; to fix this, reverse one of the motors."
+    },
+    {
+     "_id": "34d99158-9a46-8702-af69-5093bb11c06b",
+     "correct": false,
+     "answer": "The robot turns in place; to fix this, reverse both motors."
+    },
+    {
+     "_id": "e8dd39ba-59f9-c6f1-1617-9e7cc1618f2e",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "Because it is given that the two chassis motors face opposite directions, giving them the same power in the same direction will cause one wheel to propel its side of the robot to one direction and the other wheel to propel _its_ side of the robot to the other direction, effectively _turning the robot in place_. To fix this, set the direction of **one** of the motors to _REVERSE_.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand that chassis motors facing opposite directions requires the reversal of the motors on one side"
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2112058964",
+  "source": {
+   "name": "Motor Zero Power Behavior",
+   "showName": true,
+   "instructions": "What are two possible ways to make a motor try to maintain its present rotational position? Briefly explain how each way works mechanically. Which is typically more effective?",
+   "guidance": "Refer to the [Zero Power Behavior](https://andover-robotics.gitbook.io/arc-software/hardware-interaction/dcmotor#zero-power-behavior) section of the DcMotor page in _ARC Software_ for more information.\n\nOne way to make a motor try to maintain its position is to set its zero power behavior to _BRAKE_. This maximizes the motor axle's friction when its power is set to 0.\n\nThe other, more effective way is to set the motor's `RunMode` to `RUN_TO_POSITION`, set the target position to the current position, and set its power to 1. This employs an adaptive software controller that reacts to external torque acting on the motor axle by powering it in the opposite direction.",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 4,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand the two ways to make a motor maintain its position and how each method works"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3592953146",
+  "source": {
+   "name": "What are Encoders?",
+   "showName": true,
+   "instructions": "Which of the following options best defines the word **encoder** in the context of FTC motors?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "9f13744a-6dac-075b-7327-63b9d7f01438",
+     "correct": false,
+     "answer": "A hardware feature that is only present in goBILDA Yellow Jacket motors and stabilizes the angular velocity of the output axle"
+    },
+    {
+     "_id": "1e1a6039-9d7b-3217-6c50-8eb7af30d43a",
+     "correct": false,
+     "answer": "A functional process that encodes each command you send to the motor in a protocol that the motor controller understands"
+    },
+    {
+     "_id": "d030e62e-ee39-7781-5487-bfc4d61762ed",
+     "correct": true,
+     "answer": "Electronic devices attached to a motor that measures the angular displacement of the motor axle"
+    },
+    {
+     "_id": "77a9f642-7363-e23c-298c-8376f5681899",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "The _ARC Software_ GitBook states:\n> An **encoder** is a device that measures the angular position of an axle. In FTC, we use encoders regularly to rotate motors in precise amounts, enact software limits to avoid damage, or require motors to hold a constant rotational speed.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT know what an encoder is"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2634866811",
+  "source": {
+   "name": "From Ticks to Revolutions",
+   "showName": true,
+   "instructions": "If a motor encoder has a Ticks-Per-Revolution constant of $1510$ and the encoder's reading is $-5587$ ticks, how many revolutions has the output axle rotated since when the encoder's reading was zeroed? **Your answer should be the magnitude of rotation and should therefore be positive.**",
+   "text": "<<<3.7>>>",
+   "guidance": "Having a Ticks-Per-Revolution constant of $1510$ means that for every full 360-degree revolution, the encoder's reading will differ by $1510$ ticks. So, if the magnitude of the encoder's change in tick reading is $5587$, the number of revolutions occurred is $\\dfrac{5587}{1510}=\\boxed{3.7}$.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT understand tick readings in terms of revolutions, given a TPR constant",
+   "tokens": {
+    "blank": [
+     "3.7"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3811056788",
+  "source": {
+   "name": "Does the Encoder Work?",
+   "showName": true,
+   "instructions": "You are asked to test the encoder of a motor that looks questionable. You have connected the motor and the encoder to the REV hub. How would you continue? If you would program something, describe what your program would do.",
+   "guidance": "Here's how we could continue:\n\n1. Write an Experimental OpMode that runs the motor and continuously relays the current tick reading to telemetry\n2. Run the OpMode with the motor and its encoder connected\n3. If the tick reading is always zero, then something is wrong. Either the encoder is broken or the wiring is incorrect",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 4,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT test the encoder of a motor effectively"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3786698644",
+  "source": {
+   "name": "Motor Run Modes",
+   "showName": true,
+   "instructions": "What does the following code segment intend to do?\n```java\nmotor.setMode(RunMode.RUN_USING_ENCODER);\nmotor.setPower(0.6);\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d07f62eb-573a-541a-50a9-9de1b728747d",
+     "correct": false,
+     "answer": "Run the motor in the positive direction at 60% of the maximum possible electrical current"
+    },
+    {
+     "_id": "7eb31b5b-b800-1eac-3fa8-fb2c3fdd65f8",
+     "correct": true,
+     "answer": "Run the motor in the positive direction at 60% of the maximum angular speed permitted by the current RunMode. The motor should seek to maintain this angular speed."
+    },
+    {
+     "_id": "2b2a08e7-b47b-fcd7-e95d-b28df46f478f",
+     "correct": false,
+     "answer": "Run the motor in the positive direction until it reaches 60% of a full revolution of the output shaft. The motor should seek to maintain itself at the target position once it is reached."
+    },
+    {
+     "_id": "c26c66fd-97c8-da68-d276-919f7929160c",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "The _ARC Software_ GitBook states:\n> In the `RUN_USING_ENCODER` mode, power values are interpreted as velocity, not electrical power. In this mode, a power value of 1 means that the motor should maintain the highest possible angular velocity in the current direction setting, and a power value of 0.5 means half of this velocity.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand what RUN_USING_ENCODER exactly means"
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1354490009",
+  "source": {
+   "name": "Running toward the Target?",
+   "showName": true,
+   "instructions": "The following code segment is intended to let a motor run to a position of $-3320$ ticks at the maximum permitted angular velocity. However, when you deploy it to the Robot Controller and execute it on a robot, the motor doesn't rotate. What is the problem? How would you fix it?\n\n```java\nmotor.setTargetPosition(-3320);\nmotor.setMode(RunMode.RUN_TO_POSITION);\nmotor.setPower(-1);\n```",
+   "guidance": "Recall from _ARC Software_ that:\n> As with _Run Using Encoder_, the power value in `RUN_TO_POSITION` is interpreted in terms of angular velocity, not electrical power. Note, however, that **you should never supply negative power values in this mode**, since the motor will automatically determine which direction to turn in order to reach the target position.\n\nThis code segment supplied a negative power value when the motor's mode is set to `RUN_TO_POSITION`, so the motor will not behave as expected. To fix the problem, simply make the power value positive, as in `setPower(1)`.",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 2,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT recognize that negative power values should not be supplied when the mode is RUN_TO_POSITION"
+  }
+ }
+]

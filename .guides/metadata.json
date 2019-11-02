@@ -1,0 +1,292 @@
+{
+ "sections": [
+  {
+   "id": "fe5c4b8f-6c0a-ccdd-02b2-599aefd70f1a",
+   "title": "Coding In Real Life",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Coding-In-Real-Life-fe5c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b54880e3-b3af-de04-00e5-addc176f89e5",
+   "title": "Things to Know",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Things-to-Know-b548.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a3d1786d-3f00-eac3-5416-ea556dec422a",
+   "title": "Basic Definition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Basic-Definition-a3d1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f39c5056-3788-7e9b-60ac-c3d3792a086e",
+   "title": "Finding Examples",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Finding-Examples-f39c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a5c4cc2b-15d5-d0d6-f7d2-f333aa8ac8d8",
+   "title": "Starting the Execution",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Starting-the-Execution-a5c4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "632a9343-fffc-d1bc-125c-af75c7fb0b4a",
+   "title": "Starting the Execution 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Starting-the-Execution-2-632a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "66f3c597-37c7-c6e8-345f-f6f7e8d07c8c",
+   "title": "Fix this OpMode 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Fix-this-OpMode-1-66f3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0ada9fbd-ba94-d73a-3620-2ed3c9619581",
+   "title": "Order of Execution",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Order-of-Execution-0ada.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "072da2b1-1bee-30a6-510a-fc4ee2858e15",
+   "title": "Producing Output",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Producing-Output-072d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "420b8009-94ec-52b8-69cb-becec483601c",
+   "title": "Sending Output",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sending-Output-420b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8fded5ad-e7c4-d4d9-0f7c-4c000e8b1f42",
+   "title": "Sending Output Twice",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sending-Output-Twice-8fde.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7aed200e-d6de-3731-8341-532547730214",
+   "title": "An OpMode to Move a Motor",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/An-OpMode-to-Move-a-Motor-7aed.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7a3957e9-be8b-4548-b23b-2260a5ff606a",
+   "title": "From Code to Hardware",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/From-Code-to-Hardware-7a39.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "66db2a1f-e0d4-c6c4-11e0-5e822d516a9a",
+   "title": "Diagnosing the Configuration",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Diagnosing-the-Configuration-66db.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0124db81-96c2-b5f0-11ea-2677a6543289",
+   "title": "Direction and Power",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Direction-and-Power-0124.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1ad119a2-6473-296a-a774-682eaf45531d",
+   "title": "Coding for a Tank Drive TeleOp",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Coding-for-a-Tank-Drive-TeleOp-1ad1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "19e6aa4c-9bea-8861-67cf-8a469b4b63b5",
+   "title": "Zero Power Behavior",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Zero-Power-Behavior-19e6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "95538055-4a2e-8444-cb24-6382abc67116",
+   "title": "Encoders, Encoders",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Encoders--Encoders-9553.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4723404e-5ecd-e149-7764-ca60f0298991",
+   "title": "From Ticks to Revolutions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/From-Ticks-to-Revolutions-4723.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3a95a5bb-f4b1-cef6-fffa-2063485a1246",
+   "title": "Reading Ticks",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Reading-Ticks-3a95.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ce814aed-5769-9428-4665-118495188a2e",
+   "title": "Run Modes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Run-Modes-ce81.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "18ae92f2-42f7-265e-52e8-edfb74facdf1",
+   "title": "Running toward the Target?",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Running-toward-the-Target--18ae.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

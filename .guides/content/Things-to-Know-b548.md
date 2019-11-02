@@ -1,0 +1,3 @@
+The following assessments allow you to demonstrate your knowledge of the FTC SDK. Your performance in the following assessments will determine your ability to contribute effectively to the hardware interaction portion of Lightning's codebase.
+
+If you feel uncomfortable with Java in general, I recommend that you go through [_Think Java_](https://books.trinket.io/thinkjava/index.html) and do the practice problems made available to you in your Codio homepage. Do not be discouraged—you can still contribute strategies and ideas without knowing Java syntax, and even general knowledge of Object Orientation through JavaScript and/or Python is helpful.

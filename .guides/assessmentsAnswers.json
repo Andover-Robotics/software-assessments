@@ -1,0 +1,90 @@
+[
+ {
+  "taskId": "multiple-choice-3207774065",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-3242562926",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-233303784",
+  "points": 0,
+  "state": {
+   "active": "86f9e384-ba10-2cf4-f6a0-36faa5ec61c5"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-2725860421",
+  "points": 0,
+  "state": {
+   "active": "e772a1b4-e1dd-115a-6002-29ed85c3c635"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-2337092342",
+  "points": 0,
+  "state": {
+   "active": "6957728b-c9ab-8e4a-01cf-35f4f7b87391"
+  },
+  "results": []
+ },
+ {
+  "taskId": "free-text-1508465208",
+  "points": 0,
+  "state": {
+   "text": ""
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1953864357",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-2634866811",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "free-text-3811056788",
+  "points": 0,
+  "state": {
+   "text": ""
+  },
+  "results": []
+ },
+ {
+  "taskId": "free-text-2112058964",
+  "points": 0,
+  "state": {
+   "text": ""
+  },
+  "results": []
+ },
+ {
+  "taskId": "free-text-1354490009",
+  "points": 0,
+  "state": {
+   "text": ""
+  },
+  "results": []
+ }
+]

@@ -1,0 +1,158 @@
+{
+ "name": "ARC Lightning Student Box",
+ "children": [
+  {
+   "title": "Coding In Real Life",
+   "id": "fe5c4b8f-6c0a-ccdd-02b2-599aefd70f1a",
+   "type": "page",
+   "pageId": "fe5c4b8f-6c0a-ccdd-02b2-599aefd70f1a"
+  },
+  {
+   "title": "Things to Know",
+   "id": "65ad4aa9-b7c9-156f-05ff-9be88c45e7fe",
+   "type": "page",
+   "pageId": "b54880e3-b3af-de04-00e5-addc176f89e5"
+  },
+  {
+   "title": "OpModes",
+   "id": "515a0871-5faf-edc9-ff5a-0e4df4bccc76",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Basic Definition",
+     "id": "46b3b730-6be7-260b-c6ed-52ca85e1af24",
+     "type": "page",
+     "pageId": "a3d1786d-3f00-eac3-5416-ea556dec422a"
+    },
+    {
+     "title": "Finding Examples",
+     "id": "c73239f9-efa5-c815-e8fb-4fc09823dd92",
+     "type": "page",
+     "pageId": "f39c5056-3788-7e9b-60ac-c3d3792a086e"
+    },
+    {
+     "title": "Starting the Execution",
+     "id": "f0d2dceb-6867-c810-8a7d-98edb6e64a9d",
+     "type": "page",
+     "pageId": "a5c4cc2b-15d5-d0d6-f7d2-f333aa8ac8d8"
+    },
+    {
+     "title": "Starting the Execution 2",
+     "id": "6f96f588-692a-659d-ca89-f2bd72864569",
+     "type": "page",
+     "pageId": "632a9343-fffc-d1bc-125c-af75c7fb0b4a"
+    },
+    {
+     "title": "Fix this OpMode 1",
+     "id": "338f869a-9f1f-d99f-4804-a93bf038d6fe",
+     "type": "page",
+     "pageId": "66f3c597-37c7-c6e8-345f-f6f7e8d07c8c"
+    },
+    {
+     "title": "Order of Execution",
+     "id": "7a2f0124-19fc-8b31-dd22-1ba0ffb31be0",
+     "type": "page",
+     "pageId": "0ada9fbd-ba94-d73a-3620-2ed3c9619581"
+    },
+    {
+     "title": "Producing Output",
+     "id": "c30ecbf7-471b-0a6b-3c8c-c5e3528868e8",
+     "type": "page",
+     "pageId": "072da2b1-1bee-30a6-510a-fc4ee2858e15"
+    },
+    {
+     "title": "Sending Output",
+     "id": "4fd22776-c3ae-496b-fc9f-bb8011d64269",
+     "type": "page",
+     "pageId": "420b8009-94ec-52b8-69cb-becec483601c"
+    },
+    {
+     "title": "Sending Output Twice",
+     "id": "86a44fae-ab9a-3a69-c7cb-c26fe0f6ddb4",
+     "type": "page",
+     "pageId": "8fded5ad-e7c4-d4d9-0f7c-4c000e8b1f42"
+    },
+    {
+     "title": "An OpMode to Move a Motor",
+     "id": "976e9219-c616-478b-b3ab-7be70e48e4a6",
+     "type": "page",
+     "pageId": "7aed200e-d6de-3731-8341-532547730214"
+    }
+   ]
+  },
+  {
+   "title": "Hardware Configuration",
+   "id": "94f5bbe6-a832-51ac-b233-da457232b7f5",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "From Code to Hardware",
+     "id": "4e51f3ac-ed8e-a0b6-1387-975937c078e2",
+     "type": "page",
+     "pageId": "7a3957e9-be8b-4548-b23b-2260a5ff606a"
+    },
+    {
+     "title": "Diagnosing the Configuration",
+     "id": "7ea07451-e1de-11f1-3e13-7d1d817036a7",
+     "type": "page",
+     "pageId": "66db2a1f-e0d4-c6c4-11e0-5e822d516a9a"
+    },
+    {
+     "title": "Motors",
+     "id": "87e7c73d-a2ea-95fb-7ff8-9a21283c04e0",
+     "type": "section",
+     "children": [
+      {
+       "id": "54d06b0f-2f66-3c4e-6e9e-144abe573f87",
+       "title": "Direction and Power",
+       "pageId": "0124db81-96c2-b5f0-11ea-2677a6543289",
+       "type": "page"
+      },
+      {
+       "id": "0ba5f173-688e-5b6e-a2e4-2c0d37f00f9d",
+       "title": "Coding for a Tank Drive TeleOp",
+       "pageId": "1ad119a2-6473-296a-a774-682eaf45531d",
+       "type": "page"
+      },
+      {
+       "id": "a30d0c7c-d8bc-88f4-79b9-1e4c304494dc",
+       "title": "Zero Power Behavior",
+       "pageId": "19e6aa4c-9bea-8861-67cf-8a469b4b63b5",
+       "type": "page"
+      },
+      {
+       "id": "181388c2-0c12-3c6c-89fd-bc5d5d17587a",
+       "title": "Encoders, Encoders",
+       "pageId": "95538055-4a2e-8444-cb24-6382abc67116",
+       "type": "page"
+      },
+      {
+       "id": "f9e4008f-466f-9b7d-92f9-59d51b2e4d8b",
+       "title": "From Ticks to Revolutions",
+       "pageId": "4723404e-5ecd-e149-7764-ca60f0298991",
+       "type": "page"
+      },
+      {
+       "id": "b2501442-79a1-904b-defe-e3b8cbfa6979",
+       "title": "Reading Ticks",
+       "pageId": "3a95a5bb-f4b1-cef6-fffa-2063485a1246",
+       "type": "page"
+      },
+      {
+       "id": "e6dc98be-00ff-7026-23c7-0df5a5cdf0cc",
+       "title": "Run Modes",
+       "pageId": "ce814aed-5769-9428-4665-118495188a2e",
+       "type": "page"
+      },
+      {
+       "id": "93647cd9-1c91-5769-4279-d13d23d4ec27",
+       "title": "Running toward the Target?",
+       "pageId": "18ae92f2-42f7-265e-52e8-edfb74facdf1",
+       "type": "page"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
