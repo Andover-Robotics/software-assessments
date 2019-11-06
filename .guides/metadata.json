@@ -299,6 +299,95 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "c095d069-33cf-45bd-4a05-074762397c10",
+   "title": "Sequencing your Run",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sequencing-your-Run-c095.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "57c1cf96-4266-debe-ed8c-6d2f3c4ec3f9",
+   "title": "Mini-project: Back and Forth",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "StudentCode/Motors/BackAndForth.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Mini-project--Back-and-Forth-57c1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5af772b6-1385-dc42-9251-b4e9eec6f8a8",
+   "title": "Angles and Positions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Angles-and-Positions-5af7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "55d4deb5-a0e5-3947-94bc-2347b382fe1c",
+   "title": "Angles and Positions 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Angles-and-Positions-2-55d4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1fc85715-f287-0b64-ab94-d6d3536c1620",
+   "title": "Moving Servos",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Moving-Servos-1fc8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "64cc948c-b268-3f30-c8d4-0b310b197663",
+   "title": "Tracing Servo Positions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Tracing-Servo-Positions-64cc.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",

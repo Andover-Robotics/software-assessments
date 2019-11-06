@@ -103,68 +103,117 @@
      "type": "section",
      "children": [
       {
-       "id": "54d06b0f-2f66-3c4e-6e9e-144abe573f87",
        "title": "Direction and Power",
-       "pageId": "0124db81-96c2-b5f0-11ea-2677a6543289",
-       "type": "page"
+       "id": "54d06b0f-2f66-3c4e-6e9e-144abe573f87",
+       "type": "page",
+       "pageId": "0124db81-96c2-b5f0-11ea-2677a6543289"
       },
       {
-       "id": "0ba5f173-688e-5b6e-a2e4-2c0d37f00f9d",
        "title": "Coding for a Tank Drive TeleOp",
-       "pageId": "1ad119a2-6473-296a-a774-682eaf45531d",
-       "type": "page"
+       "id": "0ba5f173-688e-5b6e-a2e4-2c0d37f00f9d",
+       "type": "page",
+       "pageId": "1ad119a2-6473-296a-a774-682eaf45531d"
       },
       {
-       "id": "a30d0c7c-d8bc-88f4-79b9-1e4c304494dc",
        "title": "Zero Power Behavior",
-       "pageId": "19e6aa4c-9bea-8861-67cf-8a469b4b63b5",
-       "type": "page"
+       "id": "a30d0c7c-d8bc-88f4-79b9-1e4c304494dc",
+       "type": "page",
+       "pageId": "19e6aa4c-9bea-8861-67cf-8a469b4b63b5"
       },
       {
-       "id": "181388c2-0c12-3c6c-89fd-bc5d5d17587a",
        "title": "Encoders, Encoders",
-       "pageId": "95538055-4a2e-8444-cb24-6382abc67116",
-       "type": "page"
+       "id": "181388c2-0c12-3c6c-89fd-bc5d5d17587a",
+       "type": "page",
+       "pageId": "95538055-4a2e-8444-cb24-6382abc67116"
       },
       {
-       "id": "f9e4008f-466f-9b7d-92f9-59d51b2e4d8b",
        "title": "From Ticks to Revolutions",
-       "pageId": "4723404e-5ecd-e149-7764-ca60f0298991",
-       "type": "page"
+       "id": "f9e4008f-466f-9b7d-92f9-59d51b2e4d8b",
+       "type": "page",
+       "pageId": "4723404e-5ecd-e149-7764-ca60f0298991"
       },
       {
-       "id": "b2501442-79a1-904b-defe-e3b8cbfa6979",
        "title": "Reading Ticks",
-       "pageId": "3a95a5bb-f4b1-cef6-fffa-2063485a1246",
-       "type": "page"
+       "id": "b2501442-79a1-904b-defe-e3b8cbfa6979",
+       "type": "page",
+       "pageId": "3a95a5bb-f4b1-cef6-fffa-2063485a1246"
       },
       {
-       "id": "e6dc98be-00ff-7026-23c7-0df5a5cdf0cc",
        "title": "Run Modes",
-       "pageId": "ce814aed-5769-9428-4665-118495188a2e",
-       "type": "page"
+       "id": "e6dc98be-00ff-7026-23c7-0df5a5cdf0cc",
+       "type": "page",
+       "pageId": "ce814aed-5769-9428-4665-118495188a2e"
       },
       {
-       "id": "93647cd9-1c91-5769-4279-d13d23d4ec27",
        "title": "Running toward the Target?",
-       "pageId": "18ae92f2-42f7-265e-52e8-edfb74facdf1",
-       "type": "page"
+       "id": "93647cd9-1c91-5769-4279-d13d23d4ec27",
+       "type": "page",
+       "pageId": "18ae92f2-42f7-265e-52e8-edfb74facdf1"
       },
       {
-       "id": "14e10c93-1954-28e8-877b-20a55cb85a27",
        "title": "Waiting for the Motor",
-       "pageId": "d509a6c9-3394-7ddc-63c1-96438aa18ccd",
+       "id": "14e10c93-1954-28e8-877b-20a55cb85a27",
+       "type": "page",
+       "pageId": "d509a6c9-3394-7ddc-63c1-96438aa18ccd"
+      },
+      {
+       "title": "Fixing ARC-Core",
+       "id": "93c43069-a8ee-d6d2-df76-af8a406ddc01",
+       "type": "page",
+       "pageId": "145f50a6-944e-6e99-d769-4263f19e9475"
+      },
+      {
+       "id": "7812548f-f583-069a-0c07-cd8272a0c148",
+       "title": "Sequencing your Run",
+       "pageId": "c095d069-33cf-45bd-4a05-074762397c10",
        "type": "page"
       },
       {
-       "id": "93c43069-a8ee-d6d2-df76-af8a406ddc01",
-       "title": "Fixing ARC-Core",
-       "pageId": "145f50a6-944e-6e99-d769-4263f19e9475",
+       "title": "Mini-project: Back and Forth",
+       "id": "cf1fe89d-37b9-4fba-b196-59b1c4534b36",
+       "type": "page",
+       "pageId": "57c1cf96-4266-debe-ed8c-6d2f3c4ec3f9"
+      }
+     ]
+    },
+    {
+     "title": "Servo",
+     "id": "7b5e7901-ceae-84d9-a137-4a7a047bab97",
+     "type": "section",
+     "children": [
+      {
+       "id": "aa1cde71-ed41-f3a6-1134-02b0da7d11a9",
+       "title": "Angles and Positions",
+       "pageId": "5af772b6-1385-dc42-9251-b4e9eec6f8a8",
+       "type": "page"
+      },
+      {
+       "id": "5215e61e-ebd6-f519-cc77-4fd20298cd5d",
+       "title": "Angles and Positions 2",
+       "pageId": "55d4deb5-a0e5-3947-94bc-2347b382fe1c",
+       "type": "page"
+      },
+      {
+       "id": "4e0177ed-2bcb-d182-574b-84f8f5c01d6c",
+       "title": "Moving Servos",
+       "pageId": "1fc85715-f287-0b64-ab94-d6d3536c1620",
+       "type": "page"
+      },
+      {
+       "id": "abe0d05b-95e8-6859-5d5f-b493cc9992e0",
+       "title": "Tracing Servo Positions",
+       "pageId": "64cc948c-b268-3f30-c8d4-0b310b197663",
        "type": "page"
       }
      ]
     }
    ]
+  },
+  {
+   "title": "The TeleOp Period",
+   "id": "2d6d9f01-4da6-f0bf-689a-558b272aba47",
+   "type": "chapter",
+   "children": []
   }
  ]
 }

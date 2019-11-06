@@ -1037,5 +1037,204 @@
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT analyze existing commits in ARC Core and connect them to software rules"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-404657720",
+  "source": {
+   "name": "Motors Mini-Project: Back and Forth",
+   "showName": true,
+   "instructions": "It's time to code your first autonomous OpMode. Make a class named `BackAndForth` that extends `LinearOpMode` and fill it with code such that:\n\n1. The OpMode shows up as `Back and Forth` in the Autonomous category of the Driver Station selection menu;\n2. The OpMode initializes and controls two DcMotors with names `motorL` and `motorR` in the current hardware configuration;\n3. Assuming that the OpMode is to be executed on a simple tank-drive robot with two drivetrain motors facing opposite sides of the robot and attached to wheels that cause it to move, running the OpMode causes it to perform the following:\n>  1. Drive forward for $5000$ motor ticks, then stop\n>  2. Turn $180$ degrees (assume that it takes $2400$ ticks of rotation applied to each motor to do so)\n>  3. Go to step 1\n4. When executing the above, the robot should stop immediately whenever the user presses Stop (⏹) on the Driver Station;\n5. All FTC competition norms are followed (e.g. not moving when the user presses _INIT_)\n\nIn addition, your solution will be graded on the following characteristics:\n * Maintainability\n * Simplicity\n * Flexibility\n * Expressiveness\n\nYou may code it in Android Studio and copy your code to this Box.",
+   "command": "sh .guides/graders/opmode-manual.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 2,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "StudentCode/Motors/BackAndForth.java",
+     ".guides/graders/opmode-manual.sh"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "StudentCode/Motors/BackAndForth.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create an autonomous LinearOpMode that executes a certain path on TankDrive"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-677108232",
+  "source": {
+   "name": "Servos: From Positions to Angles",
+   "showName": true,
+   "instructions": "If a standard servo has a range of $180^\\circ$, then what angle is represented by the position value $0.3$ in the _FORWARD_ direction?",
+   "text": "<<<54>>> degrees",
+   "guidance": "Check the [Servo page](https://andover-robotics.gitbook.io/arc-software/hardware-interaction/servos#servo-position) on _ARC Software_ for more information.\nSince the range of motion of a servo is linearly scaled down to $0$ and $1$ in the `setPosition` method, a position value of $0.3$ means $0.3$ multiplied by the maximum angle, which is $180^\\circ$ in this case. Therefore, the solution is $180\\cdot 0.3 = \\boxed{54^\\circ}$.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine the corresponding angle of a servo's position value",
+   "tokens": {
+    "blank": [
+     "54"
+    ],
+    "text": [
+     0,
+     " degrees"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2734761734",
+  "source": {
+   "name": "Servo: From angles to positions",
+   "showName": true,
+   "instructions": "A servo has a range of $180^\\circ$, has its direction set to _REVERSE_, and has a current angle of $99^\\circ$. What is its current position value?\n\n_Note: In your answer, please include the leading zero before the decimal point, as in `0.XX`, not `.XX`._",
+   "text": "<<<0.45>>>",
+   "guidance": "Because the servo's direction is set to _REVERSE_, a position value of $0$ corresponds to an angular position of $180^\\circ$, and a position value of $1$ corresponds to an angular position of $0^\\circ$. Thus, to determine the corresponding position value for $99^\\circ$, we simply need to scale it down in this manner.\n\nWe can infer that for any angle $\\theta$, position $p(\\theta)=\\dfrac{180-\\theta}{180}$, so $p(99^\\circ)=\\dfrac{180-99}{180}=\\dfrac{81}{180}=\\boxed{0.45}$.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine the corresponding position value of a servo's angular position",
+   "tokens": {
+    "blank": [
+     "0.45"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1144512674",
+  "source": {
+   "name": "Moving and Querying Servos",
+   "showName": true,
+   "instructions": "The `Servo` class has two methods regarding position: `getPosition` and `setPosition`.\n\n* What does `getPosition` return, **exactly**?\n* What does `setPosition` do with the given parameter, **exactly**?\n* Can we obtain an accurate reading of a servo's physical angular position at any instant without other sensors? Why or why not?\n* How might we control the angular speed at which a servo reaches a target position? _(hint: the official SDK does not provide this functionality)_",
+   "guidance": "Given an instance of Servo named `servo`...\n\n* `servo.getPosition` returns precisely what was last passed into `servo.setPosition`. If `setPosition` was never called, it returns $0$.\n* `servo.setPosition(x)` commands the servo to rotate to the angle that corrresponds to the position value $x$ in the current direction. **It does not wait for the servo to reach that position value**.\n* We cannot obtain an accurate reading of a servo's angular position at any instant like we can with an encoder, as this is generally unavailable in servos.\n* One possible way to artificially limit the angular speed of a servo is to increment the target position value by small amounts repeatedly, as in the following function definition:\n\n```java\npublic static void rotateSlowly(Servo servo, double targetPos) throws InterruptedException {\n  double currentPos = servo.getPosition();\n  double direction = Math.signum(targetPos - currentPos);\n  while (Math.abs(currentPos - targetPos) > 0.001) {\n    currentPos += direction * 0.02;\n    servo.setPosition(currentPos);\n    Thread.sleep(40);\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "previewType": "MARKDOWN",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 8,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand exactly how servos are controlled"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2548780947",
+  "source": {
+   "name": "Servo: Tracing Scale Range",
+   "showName": true,
+   "instructions": "A servo has a physical range of $360^\\circ$ and a software range of $[0.2, 0.6]$, which was accomplished by calling the `scaleRange` method. What is the corresponding angle of the position value $0.75$ for this servo?",
+   "text": "<<<180>>> degrees",
+   "guidance": "Check the [Scale Range section](https://andover-robotics.gitbook.io/arc-software/hardware-interaction/servos#servo-scale-range) of the Servo page in _ARC Software_ for more details.\n\nIn the given servo, calling `scaleRange(0.2, 0.6)` effectively scales all subsequent position values into the range from $360\\cdot0.2=72^\\circ$ to $360\\cdot0.6=216^\\circ$, meaning that a position value of $0$ means $72^\\circ$ and that a position value of $1$ means $216^\\circ$.\n\nWith this in mind, we deduce that for a position value $p$, the corresponding angle $a(p)$ is $a(p)=p(216-72) + 72$, so the corresponding angle of $0.75$ is $a(0.75)=0.75\\cdot (216-72)+72=108+72=\\boxed{180^\\circ}$.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine the corresponding angle of a servo's position value after a call to scaleRange",
+   "tokens": {
+    "blank": [
+     "180"
+    ],
+    "text": [
+     0,
+     " degrees"
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-400750403",
+  "source": {
+   "name": "Motors: Sequencing your Run",
+   "showName": true,
+   "instructions": "It's time for a Parsons puzzle. In this problem format, you are to rearrange the lines of code below in order to meet a certain objective.\n\nAssuming that there is an instance of `DcMotor` named `motor`, arrange the following lines of code such that when someone executes it immediately after an OpMode begins, `motor` correctly starts running to a target position.",
+   "initial": "motor.setTargetPosition(-1120 * 4);\nmotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);\nmotor.setPower(1.0);",
+   "options": "{}",
+   "grader": "1",
+   "guidance": "As discussed in the previous question, it is safer to call `setTargetPosition` before `setMode`. Since we want the motor to begin moving after setting the mode and target position, we need to put `setPower` at the end. This yields the following order:\n\n* `setTargetPosition`\n* `setMode`\n* `setPower`\n\n_A mnemonic for this order is \"TMP\", or the name of the Unix/Linux temporary directory._",
+   "showGuidanceAfterResponse": true,
+   "points": 2,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT order the statements involved in Run To Position correctly"
+  }
  }
 ]
